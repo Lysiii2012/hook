@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+.buttons-group button{
+  border: none;
+  background: none;
+  font-size: 80px;
+}
+.buttons-group span{
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(5, 77, 141);
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+}
+.buttons-group>div{
+  width: 140px;
+  position: relative;
+  margin: 0 auto;
+}
+.buttons-group{
+  display: flex;
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+body{
+  font-style: italic;
+}
+.show-result{
+  padding:10px 15px;
+  background: #896;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all .5s linear;
+}
+.show-result:focus-visible{
+  color: #fff;
+}
+.result-container>div:first-child{
+  font-size: 80px;
+  font-style: normal;
+}
+.result-container>div:last-child{
+  font-weight: 600;
+  margin: 0 0 20px;
+}
